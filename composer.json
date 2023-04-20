@@ -1,19 +1,19 @@
 {
-    "name": ":vendor_name/:package_name",
-    "description": "Description",
-    "keywords": ["keyword"],
+    "name": "lee-to/moonshine-input-extension-char-count",
+    "description": "Input extension - display the number of characters",
+    "keywords": ["moonshine", "input extension", "char count"],
     "type": "library",
     "homepage": "https://moonshine.cutcode.dev",
     "license": "MIT",
     "support": {
-        "issues": "https://github.com/:vendor_name/:package_name/issues",
-        "source": "https://github.com/:vendor_name/:package_name"
+        "issues": "https://github.com/lee-to/moonshine-input-extension-char-count/issues",
+        "source": "https://github.com/lee-to/moonshine-input-extension-char-count"
     },
     "authors": [
         {
-            "name": "Author name",
-            "email": "author@example.com",
-            "homepage": "https://example.com"
+            "name": "Danil Shutsky",
+            "email": "info@cutcode.ru",
+            "homepage": "https://cutcode.dev"
         }
     ],
     "require": {
@@ -30,13 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\PackageName\\": "src/"
+            "Leeto\\InputExtensionCharCount\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\PackageName\\Tests\\": "tests/",
-            "VendorName\\PackageName\\Database\\Factories\\": "database/factories/"
+            "Leeto\\InputExtensionCharCount\\Tests\\": "tests/"
         }
     },
     "conflict": {
@@ -49,7 +48,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\PackageName\\Providers\\PackageNameServiceProvider"
+                "Leeto\\InputExtensionCharCount\\Providers\\CharCountServiceProvider"
             ]
         }
     }
