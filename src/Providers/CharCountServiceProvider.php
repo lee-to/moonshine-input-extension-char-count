@@ -11,6 +11,6 @@ final class CharCountServiceProvider extends ServiceProvider
 {
     public function boot(): void
     {
-        Blade::anonymousComponentPath(__DIR__ . '/../../resources/views', 'char-count');
+        $this->loadViewsFrom(__DIR__ . '/../../resources/views', 'char-count');
     }
 }
