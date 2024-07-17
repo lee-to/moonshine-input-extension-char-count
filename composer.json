@@ -3,7 +3,7 @@
     "description": "Input extension - display the number of characters",
     "keywords": ["moonshine", "input extension", "char count"],
     "type": "library",
-    "homepage": "https://moonshine.cutcode.dev",
+    "homepage": "https://moonshine-laravel.com",
     "license": "MIT",
     "support": {
         "issues": "https://github.com/lee-to/moonshine-input-extension-char-count/issues",
