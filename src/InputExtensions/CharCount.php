@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace Leeto\InputExtensionCharCount\InputExtensions;
 
-use MoonShine\InputExtensions\InputExtension;
+use MoonShine\UI\InputExtensions\InputExtension;
 
 class CharCount extends InputExtension
 {

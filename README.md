@@ -2,25 +2,37 @@
 
 Input extension - display the number of characters for MoonShine
 
+### Requirements
+
+- MoonShine v3.0+
+
+### Support MoonShine versions
+
+| MoonShine   | CharCount |
+|-------------|-----------|
+| 1.0+        | 1.0+      |
+| 2.0+        | 3.0+      |
+
+
 ### Installation
 
-```
-    composer require lee-to/moonshine-input-extension-char-count
+```shell
+composer require lee-to/moonshine-input-extension-char-count
 ```
 
 
 ```php
-    use Leeto\InputExtensionCharCount\InputExtensions\CharCount;
+use Leeto\InputExtensionCharCount\InputExtensions\CharCount;
 
-    //
-    Text::make('Field')
-        ->extension(new CharCount()),
-    // or
-    Text::make('Field')
-        ->extension(new CharCount(250)),
-    // or
-    Text::make('Field')
-        ->extension(new CharCount(45,5)),
+//
+Text::make('Field')
+    ->extension(new CharCount()),
+// or
+Text::make('Field')
+    ->extension(new CharCount(250)),
+// or
+Text::make('Field')
+    ->extension(new CharCount(45,5)),
 ```
 Parameters:
 max - integer. The value can be empty. The maximum number of characters allowed.
